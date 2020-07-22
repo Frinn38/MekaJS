@@ -50,3 +50,10 @@ An addon for both Mekanism and Kubejs, create mekanism gases, slurry and infuser
     versionRange="[2.6,)"
     ordering="AFTER"
     side="BOTH"
+
+[[dependencies.mekajs]]
+    modId="mekanism"
+    mandatory=true
+    versionRange="[9.10,)"
+    ordering="AFTER"
+    side="BOTH"
